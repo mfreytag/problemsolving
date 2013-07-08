@@ -1,0 +1,14 @@
+function problem ( ) {
+   if( helpful ( docs ) ) {
+      solve ( );
+      }
+   elseif ( helpful ( community ) ) {
+      solve ( );
+      while( ! helpful ( docs ) ) {
+         update ( docs );
+         }  
+      } 
+   else {
+      despair ( );
+      }
+   }
